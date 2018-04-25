@@ -43,5 +43,11 @@
   bottom: 0;
   width: 100%;
   height: 50px;
-  background-color: #9B9B8D;
+  background-color: #68685B;
+}
+.copywrite {
+  color: white;
+  margin-left: 50px;
+  margin-top: 15px;
+  font-size: 24px;
 }

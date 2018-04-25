@@ -1,0 +1,12 @@
+@import url("../css/main.css");
+
+.head {
+  height: 150px;
+}
+
+.headTxt {
+  padding-top: 120px;
+  padding-left: 25px;
+  color: white;
+  font-size: 28px;
+}
