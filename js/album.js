@@ -4,7 +4,7 @@ const clearBtn = document.getElementById('clearBtn');
 const submit = document.getElementById('submitBtn');
 
 document.addEventListener("DOMContentLoaded", function() {
-  fetch("https://lit-fortress-6467.herokuapp.com/object")
+  fetch("http://alphaborel.com/api/object.json")
 
     .then(function(response) {
       return response.json();

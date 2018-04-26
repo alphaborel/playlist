@@ -4,7 +4,7 @@ const albumTwo = document.getElementById('album2');
 const albumThree = document.getElementById('album3');
 
 document.addEventListener("DOMContentLoaded", function() {
-  fetch("https://lit-fortress-6467.herokuapp.com/object")
+  fetch("http://alphaborel.com/api/object.json")
 
     .then(function(response) {
       return response.json();
