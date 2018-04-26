@@ -17,18 +17,20 @@ body {
 
 .albumsRow {
   display: flex;
-  justify-content: space-between;
-  overflow: scroll;
-  width: 70%;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  overflow: auto;
+  white-space: nowrap;
+  width: 75%;
   height: 160px;
   padding-top: 15px;
-  padding-bottom: 15px;
   margin: 0 auto;
 }
 
 .miniAlbum {
-  width: 100px;
-  height: 100px;
+  margin-left: 5%;
+  min-width: 100px;
+  min-height: 100px;
 }
 
 .miniAlbum img {
