@@ -1,12 +1,56 @@
 @import url("../css/main.css");
+body {
+  font-family: 'ShinyFont';
+}
 
 .head {
-  height: 150px;
+  height: 125px;
+  border-bottom: 1px solid #9B9B8D;
 }
 
 .headTxt {
-  padding-top: 120px;
+  padding-top: 90px;
   padding-left: 25px;
   color: white;
   font-size: 28px;
+}
+
+.albumsRow {
+  display: flex;
+  justify-content: space-between;
+  overflow: scroll;
+  width: 70%;
+  height: 160px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+
+.miniAlbum {
+  width: 100px;
+  height: 100px;
+}
+
+.miniAlbum img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.albumInfo {
+  width: 70%;
+  height: 150px;
+  overflow: scroll;
+  padding-top: 15px;
+  padding-left: 15px;
+  background-color: #EEEEEE;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.btnLeft {
+  margin-left: 15%;
+}
+
+.btnRight {
+  margin-left: 3%;
 }
